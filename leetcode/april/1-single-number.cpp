@@ -29,7 +29,7 @@ public:
 
 int main() {
   string s;
-  cin >> s;
+  getline(cin, s);
 
   vector<string> raw;
   istringstream iss(s);
