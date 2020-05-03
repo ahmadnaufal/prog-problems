@@ -10,7 +10,7 @@ using namespace std;
 
 /**
  *  The solution class
- */ 
+ */
 class Solution {
 public:
   /**
@@ -22,7 +22,7 @@ public:
     int res = 0;
     for (int a : nums)
       res = res ^ a;
-    
+
     return res;
   }
 };
@@ -33,7 +33,7 @@ int main() {
 
   vector<string> raw;
   istringstream iss(s);
-  for (string s; iss >> s; ) 
+  for (string s; iss >> s; )
     raw.push_back(s);
 
   vector<int> nums;

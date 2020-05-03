@@ -11,7 +11,7 @@ using namespace std;
 
 /**
  *  The solution class
- */ 
+ */
 class Solution {
 public:
   /**
@@ -23,12 +23,12 @@ public:
     map<char, int> jewels;
     for (char js : J)
       jewels[js] = 1;
-    
+
     int count = 0;
     for (char s : S) {
       if (jewels[s] == 1) count++;
     }
-    
+
     return count;
   }
 };
