@@ -3,11 +3,13 @@
 using namespace std;
 
 /**
- *  Given an arbitrary ransom note string and another string containing letters from all the magazines,
- *  write a function that will return true if the ransom note can be constructed from the magazines ; otherwise, it will return false.
- *  Each letter in the magazine string can only be used once in your ransom note.
- *  Note:
- *  You may assume that both strings contain only lowercase letters.
+ *  Given a positive integer, output its complement number.
+ *  The complement strategy is to flip the bits of its binary representation.
+ *
+ *  Input: 5
+ *  Output: 2
+ *  Explanation: The binary representation of 5 is 101 (no leading zero bits), and its complement is 010.
+ *  So you need to output 2.
  */
 
 /**
