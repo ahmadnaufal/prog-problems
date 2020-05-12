@@ -21,6 +21,10 @@ using namespace std;
  */
 class Solution {
 public:
+  /**
+   *  Approach:
+   *  Use binary search in sorted array.
+   */
   int singleNonDuplicate(vector<int>& nums) {
     if (nums.size() == 1) return nums[0];
 
@@ -53,7 +57,7 @@ int main() {
   for (string s : raw)
     nums.push_back(stoi(s));
 
-  Solution *solution = new Solution();;
+  Solution *solution = new Solution();
   cout << solution->singleNonDuplicate(nums) << endl;
 
   return 0;
